@@ -1,0 +1,986 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://themes.googleusercontent.com/static/fonts/opensans/v6/DXI1ORHCpsQm3Vp6mXoaTaRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+}
+@font-face {
+  font-family: 'Bree Serif';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://themes.googleusercontent.com/static/fonts/breeserif/v2/LQ7WLTaITDg4OSRuOZCps73hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://themes.googleusercontent.com/static/fonts/opensans/v6/MTP_ySUJH_bn48VBG8sNSqRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://themes.googleusercontent.com/static/fonts/opensans/v6/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
+/*@font-face {
+	font-family: 'BodoniEgyptianPro-ExtBold';
+	src: url('https://fnt.webink.com/wfs/?drawer=EDF5BD94-005E-4F4B-9264-488EA117B08B&font=5C319BA5-91A6-CDA5-9E58-2754425781DC');
+	font-weight: normal;
+	font-style: normal;
+}
+.BodoniEgyptianPro-ExtBold { 
+	font-family: BodoniEgyptianPro-ExtBold !important; 
+}
+@font-face {
+	font-family: 'BodoniEgyptianPro-Medium';
+	src: url('https://fnt.webink.com/wfs/?drawer=EDF5BD94-005E-4F4B-9264-488EA117B08B&font=9323A2D8-AC1C-2762-9326-31829C90BB91');
+	font-weight: normal;font-style: normal;
+}
+.BodoniEgyptianPro-Medium { 
+	font-family: BodoniEgyptianPro-Medium !important; 
+}*/
+/*@import url("//fonts.googleapis.com/css?family=Goudy+Bookletter+1911:400normal|Denk+One:400normal|Fondamento:400normal,400italic|Orienta:400normal|Special+Elite:400normal|Arbutus+Slab:400normal|Just+Me+Again+Down+Here:400normal|Karla:400normal,400italic,700normal,700italic|Sintony:400normal,700normal|Archivo+Black:400normal&subset=latin&directory&text=+%2C-.0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz&directory");*/
+/*@import url("http://fonts.googleapis.com/css?family=Orienta");*/
+/*@import url("http://fonts.googleapis.com/css?family=Quando");*/
+@import url("//fonts.googleapis.com/css?family=Roboto+Slab:100normal,300normal,400normal,700normal|Meie+Script:400normal|Noto+Serif:400normal,400italic,700normal,700italic|Noto+Sans:400normal,400italic,700normal,700italic|Days+One:400normal|Abril+Fatface:400normal|Chela+One:400normal|Alegreya+SC:400normal,400italic,700normal,700italic,900normal,900italic|Milonga:400normal|Quando:400normal&subset=latin&directory&text=+%2C-.0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz&directory");
+
+
+A:link {
+	COLOR: #FFFFFF;
+	text-decoration: none;
+	text-shadow: 5px 5px 20px #000088;
+}
+A:visited {
+	COLOR: #FFFFFF;
+	text-decoration: none;
+	text-shadow: 5px 5px 20px #000088;
+}
+A:hover {
+	COLOR: #FFFFFF;
+	text-decoration: none;
+	text-shadow: 5px 5px 10px #000088;
+}
+
+
+.box1{
+	background-color: #1291C7;
+	text-align: center;
+	vertical-align: middle;
+	height: 100px;
+	padding: 40px 0;	
+	font-size: 20px;
+}
+.box1:hover{
+	background-color: #0E719C;
+	text-align: center;
+	vertical-align: middle;
+	height: 100px;
+	padding: 40px 0;
+}
+.box2{
+	background-color: #1291C7;
+	text-align: center;
+	vertical-align: middle;
+	height: 100px;
+	padding: 40px 0;	
+	font-size: 20px;
+}
+/*.row-fluid [class*="span"]{
+	
+}*/
+.no-left{
+	margin-left: 2px !important;
+	margin-top: 2px !important;
+}
+.hit-counter{
+	font-family: "Bree Serif", serif;
+	font-size: 20px;
+	line-height: normal;
+}
+.tall50{
+	margin-top: 50px;
+}
+.tall30{
+	margin-top: 30px;
+}
+.font25{
+	font-size: 25px;
+}
+body{
+	background-color:#00CCFF;
+	color: #FFFFFF;
+	font-family: "Open Sans", serif;
+	text-shadow: 5px 5px 20px #0055cc;
+}
+.container{
+	width: 95%;
+	margin-top: 10px;
+}
+.main-content{
+	margin-top:30px;
+	font-size: 20px;
+	line-height: normal;
+}
+.main-content .myname{
+	font-size: 50px;
+/*	font-family: 'Quando', sans-serif;*/
+	font-family: "Bree Serif", serif;
+	text-shadow: 5px 5px 20px #0000FF;
+}
+.main-content .exp-position{
+	font-size: 30px;
+}
+#body_page .container #menu #home .box1{
+	background-color: #0E719C;
+}
+.main-content #home{}
+.main-content #educations,
+.main-content #experiences,
+.main-content #projects,
+.main-content #awards,
+.main-content #sn,
+.main-content #certifications
+{
+	display: none;
+}
+.main-content h4{
+	font-size: 30px;
+	font-family: "Bree Serif", serif;
+	line-height: normal;
+	text-shadow: 5px 5px 20px #0000FF;
+}
+.main-content h5{
+	font-size: 28px;
+	font-family: "Bree Serif", serif;
+	line-height: normal;
+	text-shadow: 5px 5px 20px #0000FF;
+}
+.main-content .hit-counter{
+	display: none;
+}
+.container #menu #menu-navbar-open,
+.container #menu #menu-navbar-close{
+	display: none;
+}
+
+.section-item{
+    border-bottom: 1px dotted #ffffff;
+    padding-bottom: 30px;
+}
+
+.main-content #background-experience #experience-345146238 #experience-345146238-view hgroup a#image{
+	
+	background-color: #ffffff; 
+	background-image: url("../images/experiences/canon.jpg");
+	background-size: 215px auto;
+	display: block;
+	width: 214px;
+	height: 88px;
+}
+.main-content #background-experience #experience-345146237 #experience-345146237-view hgroup a#image{
+	
+	/*background-color: #e3e3e3;*/
+	background-color: #ffffff; 
+	background-image: url("../images/experiences/ais.jpg");
+	background-size: 215px auto;
+	display: block;
+	width: 214px;
+	height: 135px;
+}
+.main-content #background-experience #experience-345146236 #experience-345146236-view hgroup a#image{
+	
+	/*background-color: #e3e3e3;*/
+	background-color: #ffffff; 
+	background-image: url("../images/experiences/tacinfo.png");
+	background-size: 215px auto;
+	display: block;
+	width: 218px;
+	height: 135px;
+}
+.main-content #background-experience #experience-345146235 #experience-345146235-view hgroup a#image{
+	
+	/*background-color: #e3e3e3;*/
+	background-color: #ffffff; 
+	background-image: url("../images/experiences/ait-innovation.jpg");
+	background-size: 300px auto;
+	display: block;
+	width: 300px;
+	height: 145px;
+}
+.main-content #background-experience #experience-345146234 #experience-345146234-view hgroup a#image{
+	
+	/*background-color: #e3e3e3;*/
+	background-color: #ffffff; 
+	background-image: url("../images/experiences/ringzero_thailandnetwork.png");
+	background-size: 242px auto;
+	display: block;
+	width: 170px;
+	height: 70px;
+}
+.main-content #background-experience #experience-345146233 #experience-345146233-view hgroup a#image{
+	
+	/*background-color: #e3e3e3;*/
+	background-color: #ffffff; 
+	background-image: url("../images/experiences/candelaz-logo11.png");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 194px;
+}
+.main-content #background-experience #experience-345146232 #experience-345146232-view hgroup a#image{
+	background-image: url("../images/experiences/Buildthedot.png");
+	background-size: auto auto;
+	display: block;
+	width: 128px;
+	height: 194px;
+}
+.main-content #background-experience #experience-345146231 #experience-345146231-view hgroup a#image{
+	background-image: url("../images/experiences/socket9-logo-white.png");
+	background-size: auto auto;
+	display: block;
+	width: 209px;
+	height: 41px;
+}
+.main-content #background-experience #experience-367593574 #experience-367593574-view hgroup a#image{
+	background-image: url("../images/experiences/monogon-logo.png");
+	background-size: auto auto;
+	display: block;
+	width: 260px;
+	height: 286px;
+}
+.main-content #background-experience #experience-317864273 #experience-317864273-view hgroup a#image{
+	background-image: url("../images/experiences/HyroLogo-small.jpg");
+	background-size: auto auto;
+	display: block;
+	width: 150px;
+	height: 105px;
+}
+.main-content #background-experience #experience-317866530 #experience-317866530-view hgroup a#image{
+	background-image: url("../images/experiences/ZiYouRenWangBa-logo.jpg");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 363px;
+}
+.main-content #background-experience #experience-328703201 #experience-328703201-view hgroup a#image{
+	background-image: url("../images/experiences/PSP_Solutions_Logo_v1_-_White.jpg");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 121px;
+}
+.main-content #background-experience #experience-254251547 #experience-254251547-view hgroup a#image{
+	background-image: url("../images/experiences/SCB-logo.jpg");
+	background-size: auto auto;
+	display: block;
+	width: 471px;
+	height: 320px;
+}
+.main-content #background-experience #experience-254257886 #experience-254257886-view hgroup a#image{
+	background-image: url("../images/experiences/ThaiFly-logo.jpg");
+	background-size: auto auto;
+	display: block;
+	width: 224px;
+	height: 206px;
+}
+.main-content #background-experience #experience-352955959 #experience-352955959-view hgroup a#image{
+	background-image: url("../images/experiences/Thaitelephone-logo.gif");
+	background-size: auto auto;
+	display: block;
+	width: 500px;
+	height: 128px;
+}
+.main-content #background-education #education-45113785 #education-45113785-view a#image{
+	background-image: url("../images/educations/nida-mba-aacsb.jpg");
+	background-size: 398px auto;
+	display: block;
+	width: 398px;
+	height: 190px;
+}
+.main-content #background-education #education-45113784 #education-45113784-view a#image{
+	background-image: url("../images/educations/kmitl_thai.png");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 484px;
+}
+.main-content #background-education #education-45143993 #education-45143993-view a#image{
+	background-image: url("../images/educations/LasalleCollegeBangkok.jpg");
+	background-size: auto auto;
+	display: block;
+	width: 301px;
+	height: 300px;
+}
+.main-content #background-education #education-141156067 #education-141156067-view a#image{
+	background-image: url("../images/educations/02.Phatthana_IT.gif");
+	background-size: auto auto;
+	display: block;
+	width: 200px;
+	height: 199px;
+}
+.main-content #background-certifications #certifications-200310 #view #image{
+	background-image: url("../images/certifications/1.PattanaTechnicSchool.jpg");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 351px;
+}
+.main-content #background-certifications #certifications-2007080 #view #image{
+	background-image: url("../images/certifications/2.AC.jpg");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 365px;
+}
+.main-content #background-certifications #certifications-2007081 #view #image{
+	background-image: url("../images/certifications/3.Chula.jpg");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 350px;
+}
+.main-content #background-certifications #certifications-2007082 #view #image{
+	background-image: url("../images/certifications/4.TagName.jpg");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 350px;
+}
+.main-content #background-certifications #certifications-2007021 #view #image{
+	background-image: url("../images/certifications/5.Lasalle.jpg");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 350px;
+}
+.main-content #background-certifications #certifications-2008021 #view #image{
+	background-image: url("../images/certifications/7.Lasalle.jpg");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 350px;
+}
+.main-content #background-certifications #certifications-2005101 #view #image{
+	background-image: url("../images/certifications/8.AUA1.jpg");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 365px;
+}
+.main-content #background-certifications #certifications-2007041 #view #image{
+	background-image: url("../images/certifications/8.AUA2.jpg");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 368px;
+}
+.main-content #background-certifications #certifications-2007061 #view #image{
+	background-image: url("../images/certifications/8.AUA3.jpg");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 370px;
+}
+.main-content #background-certifications #certifications-2007081 #view #image{
+	background-image: url("../images/certifications/8.AUA4.jpg");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 368px;
+}
+.main-content #background-certifications #certifications-2010051 #view #image{
+	background-image: url("../images/certifications/9.IBN.jpg");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 350px;
+}
+.main-content #background-certifications #certifications-2011051 #view #image{
+	background-image: url("../images/certifications/10.SCB.jpg");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 665px;
+}
+.main-content #background-honors #honors-056 #honors-056-view #image{
+	background-image: url("../images/awards/1.RSU.jpg");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 893px;
+}
+.main-content #background-honors #honors-104 #honors-104-view #image{
+	background-image: url("../images/awards/3.Chula.jpg");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 362px;
+}
+.main-content #background-honors #honors-105 #honors-105-view #image{
+	background-image: url("../images/awards/2.ABAC1.jpg");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 362px;
+}
+.main-content #background-honors #honors-064 #honors-064-view #image{
+	background-image: url("../images/awards/2.ABAC2.jpg");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 362px;
+}
+.main-content #background-honors #honors-102 #honors-102-view #image{
+	background-image: url("../images/awards/6.LasallePhoto.jpg");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 378px;
+}
+.main-content #background-honors #honors-108 #honors-108-view #image{
+	background-image: url("../images/awards/4.USACO2008.jpg");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 500px;
+}
+.main-content #background-honors #honors-108 #honors-108-2-view #image{
+	background-image: url("../images/awards/4.USACO2008-2.jpg");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 460px;
+}
+.main-content #background-honors #honors-108 #honors-108-3-view #image{
+	background-image: url("../images/awards/4.USACO2008-3.jpg");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 320px;
+}
+.main-content #background-honors #honors-106 #honors-106-view #COCI2008-1 #image{
+	background-image: url("../images/awards/5.COCI2008-1.jpg");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 20px;
+}
+.main-content #background-honors #honors-106 #honors-106-view #COCI2008-2 #image{
+	background-image: url("../images/awards/5.COCI2008-2.jpg");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 20px;
+}
+.main-content #background-honors #honors-106 #honors-106-view #COCI2008-3 #image{
+	background-image: url("../images/awards/5.COCI2008-3.jpg");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 20px;
+}
+.main-content #background-honors #honors-106 #honors-106-view #COCI2008-4 #image{
+	background-image: url("../images/awards/5.COCI2008-4.jpg");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 20px;
+}
+.main-content #background-honors #honors-103 #honors-103-view #image{
+	background-image: url("../images/awards/7.KMITLtranscript.png");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 650px;
+}
+.main-content #background-projects #project-45 #project-45-view a#image{
+	background-image: url("../images/projects/1.SCB-ITPR.jpg");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 387px;
+}
+.main-content #background-projects #project-31 #project-31-view #image1 a#image{
+	background-image: url("../images/projects/2.i-ming1.jpg");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 348px;
+}
+.main-content #background-projects #project-31 #project-31-view #image2 a#image{
+	background-image: url("../images/projects/2.i-ming2.png");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 314px;
+}
+.main-content #background-projects #project-46 #project-46-view a#image{
+	background-image: url("../images/projects/3.Gamecore-VirusStoneOfiMingDragon.jpg");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 363px;
+}
+.main-content #background-projects #project-47 #project-47-view p#image1 a#image{
+	background-image: url("../images/projects/4.PatientInformationManagementSystem1.png");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 293px;
+}
+.main-content #background-projects #project-47 #project-47-view p#image2 a#image{
+	background-image: url("../images/projects/4.PatientInformationManagementSystem2.png");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 273px;
+}
+.main-content #background-projects #project-48 #project-48-view p#image1 a#image{
+	background-image: url("../images/projects/22.PramaLab1.png");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 380px;
+}
+.main-content #background-projects #project-48 #project-48-view p#image2 a#image{
+	background-image: url("../images/projects/22.PramaLab2.png");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 315px;
+}
+.main-content #background-projects #project-39 #project-39-view a#image{
+	background-image: url("../images/projects/5.UseeUdo1.png");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 348px;
+}
+.main-content #background-projects #project-36 #project-36-view a#image{
+	background-image: url("../images/projects/6.AmazeSchool.png");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 301px;
+}
+.main-content #background-projects #project-40 #project-40-view a#image{
+	background-image: url("../images/projects/19.arming-shake.png");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 311px;
+}
+.main-content #background-projects #project-41 #project-41-view a#image{
+	background-image: url("../images/projects/7.HyroAndroidTrainingSchool2.png");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 678px;
+}
+.main-content #background-projects #project-42 #project-42-view p#image1 a#image{
+	background-image: url("../images/projects/18.Billboard1.png");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 270px;
+}
+.main-content #background-projects #project-42 #project-42-view p#image2 a#image{
+	background-image: url("../images/projects/18.Billboard2.png");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 266px;
+}
+
+.main-content #background-projects #project-113 #project-113-view a#image{
+	background-image: url("../images/projects/33.PlanetPressDesigner.png");
+	background-size: 483px auto;
+	display: block;
+	width: 484px;
+	height: 315px;
+}
+
+.main-content #background-projects #project-112 #project-112-view a#image{
+	background-image: url("../images/projects/32.ais_cfms1.png");
+	background-size: 483px auto;
+	display: block;
+	width: 484px;
+	height: 259px;
+}
+
+.main-content #background-projects #project-111 #project-111-view a#image{
+	background-image: url("../images/projects/31.taautosales.png");
+	background-size: 483px auto;
+	display: block;
+	width: 484px;
+	height: 162px;
+}
+
+.main-content #background-projects #project-110 #project-110-view a#image{
+	background-image: url("../images/projects/30.nnt_prdsharing.png");
+	background-size: 483px auto;
+	display: block;
+	width: 484px;
+	height: 303px;
+}
+.main-content #background-projects #project-109 #project-109-view a#image{
+	background-image: url("../images/projects/29.GOODJOB_STORE.png");
+	background-size: 483px auto;
+	display: block;
+	width: 484px;
+	height: 303px;
+}
+.main-content #background-projects #project-108 #project-108-view a#image{
+	background-image: url("../images/projects/28.RDSmartTax.png");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 400px;
+}
+.main-content #background-projects #project-107 #project-107-view a#image{
+	background-image: url("../images/projects/27.ThaiJobHD.png");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 303px;
+}
+.main-content #background-projects #project-106 #project-106-view a#image{
+	background-image: url("../images/projects/26.MckansysSite.png");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 276px;
+}
+.main-content #background-projects #project-105 #project-105-view a#image{
+	background-image: url("../images/projects/25.MckansysPortral.png");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 276px;
+}
+.main-content #background-projects #project-104 #project-104-view a#image{
+	background-image: url("../images/projects/24.NOBPCORP.png");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 318px;
+}
+
+
+
+
+
+
+
+.main-content #background-projects #project-103 #project-103-view a#image{
+	background-image: url("../images/projects/23.EIS-iPad.jpg");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 363px;
+}
+.main-content #background-projects #project-101 #project-101-view p#image1 a#image{
+	background-image: url("../images/projects/17.Click2Feed-1.png");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 723px;
+}
+.main-content #background-projects #project-101 #project-101-view p#image2 a#image{
+	background-image: url("../images/projects/17.Click2Feed-2.png");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 723px;
+}
+.main-content #background-projects #project-101 #project-101-view p#image3 a#image{
+	background-image: url("../images/projects/17.Click2Feed-3.png");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 680px;
+}
+.main-content #background-projects #project-101 #project-101-view p#image4 a#image{
+	background-image: url("../images/projects/17.Click2Feed-4.png");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 476px;
+}
+.main-content #background-projects #project-102 #project-102-view a#image{
+	background-image: url("../images/projects/20.Arming-Metro-style.png");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 282px;
+}
+.main-content #background-projects #project-100 #project-100-view a#image{
+	background-image: url("../images/projects/8.HelpDeskApp.png");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 230px;
+}
+.main-content #background-projects #project-96 #project-96-view a#image{
+	background-image: url("../images/projects/9.universityProject.jpg");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 479px;
+}
+.main-content #background-projects #project-21 #project-21-view a#image{
+	background-image: url("../images/projects/10.nikom2532-2003.png");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 292px;
+}
+.main-content #background-projects #project-22 #project-22-view a#image{
+	background-image: url("../images/projects/10.nikom2532-2005.png");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 713px;
+}
+.main-content #background-projects #project-23 #project-23-view a#image{
+	background-image: url("../images/awards/1.RSU.jpg");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 893px;
+}
+.main-content #background-projects #project-43 #project-43-view a#image{
+	background-image: url("../images/projects/11.OTRS.png");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 221px;
+}
+.main-content #background-projects #project-51 #project-51-view a#image{
+	background-image: url("../images/projects/12.MembersAllianceEducationFoundation.png");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 1191px;
+}
+.main-content #background-projects #project-52 #project-52-view a#image{
+	background-image: url("../images/projects/13.punpunbikeshare.png");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 288px;
+}
+.main-content #background-projects #project-53 #project-53-view p#image1 a#image{
+	background-image: url("../images/projects/14.CloudStax1.jpg");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 774px;
+}
+.main-content #background-projects #project-53 #project-53-view p#image2 a#image{
+	background-image: url("../images/projects/14.CloudStax2.jpg");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 774px;
+}
+.main-content #background-projects #project-54 #project-54-view a#image{
+	background-image: url("../images/projects/16.Mymart3Android.png");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 349px;
+}
+.main-content #background-projects #project-55 #project-55-view a#image{
+	background-image: url("../images/projects/15.OTOPPLUS.png");
+	background-size: 484px auto;
+	display: block;
+	width: 484px;
+	height: 806px;
+}
+/* photo border in Project */
+.main-content #background-projects a#image,
+.main-content #background-education a#image,
+.main-content #background-honors a#image,
+.main-content #background-certifications a#image,
+#body_page .container #content .span12.main-content #home .span8 img{
+	border: 10px solid #fff;
+	border-radius: 15px;
+}
+
+/* position for the menu */
+.container #menu{
+	position: fixed;
+	top: 2%;
+	left: 2%;
+}
+.container #content{
+	margin-left: 34.914893617021278%;
+}
+
+/* ### Responsive Size ### */
+/* Large desktop */
+@media (min-width: 1200px) {
+	.main-content .hit-counter{
+		display: none;
+	}
+	.container #menu #menu-navbar-open,
+	.container #menu #menu-navbar-close{
+		display: none;
+	}
+	/* position for the menu */
+	.container #menu{
+		position: fixed;
+		top: 2%;
+		left: 2%;
+	}
+	.container #content{
+		margin-left: 34.914893617021278%;
+	}
+	/* photo border in Project */
+	.main-content #background-projects a#image,
+	.main-content #background-education a#image,
+	.main-content #background-honors a#image,
+	.main-content #background-certifications a#image,
+	#body_page .container #content .span12.main-content #home .span8 img{
+		border: 10px solid #fff;
+		border-radius: 15px;
+	}
+}
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px){
+	.main-content .hit-counter{
+		display: none;
+	}
+	.container #menu #menu-navbar-open,
+	.container #menu #menu-navbar-close{
+		display: none;
+	}
+	
+	/* photo border in Project */
+	.main-content #background-projects a#image,
+	.main-content #background-education a#image,
+	.main-content #background-honors a#image,
+	.main-content #background-certifications a#image,
+	#body_page .container #content .span12.main-content #home .span8 img{
+		border: 10px solid #fff;
+		border-radius: 15px;
+	}
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	.container #menu #menu-navbar-close{
+		display: none;
+	}
+	.container #menu #menu-navbar-open{
+		display: inline;
+	}
+	.container #menu #menu-navbar-open #navbar .box1,
+	.container #menu #menu-navbar-close #navbar .box1{
+		background-image: url("../../assets/images/navbar/navbar.png");
+		background-repeat:no-repeat;
+		background-position: center;
+	}
+	.container #menu #lists{
+		display:none;
+	}
+	.box1,
+	.box1:hover,
+	.box2{
+		background-color: #1291C7;
+		height: 50px;
+		padding: 10px 0;
+	}
+	/* position for the menu */
+	.container #menu{
+		position: relative;
+	}
+	.container #content{
+		margin-left: 0;
+	}
+	
+	.main-content #background-experience #experience-391737344 hgroup a#image,
+	.main-content #background-education .education p a#image,
+	.main-content #background-projects p a#image,
+	.main-content #background-honors a#image,
+	.main-content #background-certifications p a#image
+	{
+		width:100% !important;
+		background-repeat:no-repeat;
+		background-position:center;
+		background-size: contain !important;
+		-webkit-background-size: contain !important;
+	    -moz-background-size: contain !important;
+	    -o-background-size: contain !important;
+	}
+	#menu .hit-counter{
+		display: none;
+	}
+	.main-content .hit-counter{
+		display: block;
+	}
+	
+	/* photo border in Project */
+	.main-content #background-projects a#image,
+	.main-content #background-education a#image,
+	.main-content #background-honors a#image,
+	.main-content #background-certifications a#image,
+	#body_page .container #content .span12.main-content #home .span8 img{
+		border: 0;
+	}
+}
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	.container #menu #menu-navbar-close{
+		display: none;
+	}
+	.container #menu #menu-navbar-open{
+		display: inline;
+	}
+	.container #menu #menu-navbar-open #navbar .box1,
+	.container #menu #menu-navbar-close #navbar .box1{
+		background-image: url("../../assets/images/navbar/navbar.png");
+		background-repeat:no-repeat;
+		background-position: center;
+	}
+	.container #menu #lists{
+		display:none;
+	}
+	.box1,
+	.box1:hover,
+	.box2{
+		background-color: #1291C7;
+		height: 50px;
+		padding: 10px 0;
+		font-size: 15px;
+	}
+	/* position for the menu */
+	.container #menu{
+		position: relative;
+	}
+	.container #content{
+		margin-left: 0;
+	}
+	.main-content .hit-counter{
+		display: block;
+	}
+	#menu .hit-counter{
+		display: none;
+	}
+	
+	/* photo border in Project */
+	.main-content #background-projects a#image,
+	.main-content #background-education a#image,
+	.main-content #background-honors a#image,
+	.main-content #background-certifications a#image,
+	#body_page .container #content .span12.main-content #home .span8 img{
+		border: 0;
+	}
+}
+.show-inline{
+	display: inline !important;
+}
+.show-none{
+	display: none !important;
+}
